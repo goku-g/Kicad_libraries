@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPM3620AGQV-Z
+D DC/DC CONV, SYNC BUCK, 2MHZ, 125DEG C; DC / DC Converter Type:Module; Input Voltage Min:4.5V; Input Voltage Max:24V; No. of Outputs:1 Output; DC / DC Converter IC Case:QFN; No. of Pins:20Pins; Output Current:2A; Product Range:- RoHS Compliant: Yes
+K
+F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=3961
+$ENDCMP
+#
+#End Doc Library
