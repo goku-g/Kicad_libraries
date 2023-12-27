@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC00S14-13
+D 74HC Quad 2-input NAND Gate SO14
+K
+F https://www.diodes.com/assets/Datasheets/74HC00.pdf
+$ENDCMP
+#
+#End Doc Library
