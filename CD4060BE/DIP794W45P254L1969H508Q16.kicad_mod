@@ -68,6 +68,6 @@
   (model "/home/goku/Projects/kicad/Libraries/CD4060BE/CD4060BE.step"
     (offset (xyz 0 0 -0.5))
     (scale (xyz 1 1 0.9))
-    (rotate (xyz -90 0 -90))
+    (rotate (xyz -90 0 90))
   )
 )
