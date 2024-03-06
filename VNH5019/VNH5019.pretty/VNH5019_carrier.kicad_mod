@@ -111,4 +111,9 @@
   (pad "16" thru_hole circle (at -2.2 17.56 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp d1c49aac-ac71-4412-9890-89ded5f920d0))
   (pad "17" thru_hole circle (at -4.74 17.56 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp f1cca613-35bd-49e7-93a9-3d082fa31fd3))
   (pad "18" thru_hole circle (at -7.28 17.56 270) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b27767de-095b-407b-9f45-adfdf4be4f3f))
+  (model "/home/goku/Projects/kicad/Libraries/VNH5019/vnh5019-motor-driver-carrier.step"
+    (offset (xyz -14.9 19.25 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
