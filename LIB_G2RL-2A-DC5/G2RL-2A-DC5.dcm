@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G2RL-2A-DC5
+D General Purpose Relays DPST-NO 5VDC ClassF GP Type Flux
+K
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+#End Doc Library
