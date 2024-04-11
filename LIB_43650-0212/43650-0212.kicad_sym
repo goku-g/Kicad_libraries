@@ -1,48 +1,192 @@
-(kicad_symbol_lib (version 20211014) (generator SamacSys_ECAD_Model)
-  (symbol "43650-0212" (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Value" "43650-0212" (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Footprint" "43650-02(12,13,14)" (at 16.51 -94.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500212_sd.pdf" (at 16.51 -194.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "ki_description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Solder Tab, Glow-Wire Capable, Black, Tape and Reel" (at 16.51 -294.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Height" "5.57" (at 16.51 -394.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Part Number" "538-43650-0212" (at 16.51 -494.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0212?qs=zi95yC3thwGsNF9etovFgw%3D%3D" (at 16.51 -594.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Name" "Molex" (at 16.51 -694.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (property "Manufacturer_Part_Number" "43650-0212" (at 16.51 -794.92 0)
-      (effects (font (size 1.27 1.27)) (justify left top) hide)
-    )
-    (rectangle
-      (start 5.08 2.54)
-      (end 15.24 -2.54)
-      (stroke (width 0.254) (type default))
-      (fill (type background))
-    )
-    (pin passive line (at 0 0 0) (length 5.08)
-      (name "1" (effects (font (size 1.27 1.27))))
-      (number "1" (effects (font (size 1.27 1.27))))
-    )
-    (pin passive line (at 20.32 0 180) (length 5.08)
-      (name "2" (effects (font (size 1.27 1.27))))
-      (number "2" (effects (font (size 1.27 1.27))))
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "43650-0212"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 16.51 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "43650-0212"
+			(at 16.51 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "43650-02(12,13,14)"
+			(at 16.51 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/436500212_sd.pdf"
+			(at 16.51 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro-Fit 3.0 Right-Angle Header, 3.00mm Pitch, Single Row, 2 Circuits, with Solder Tab, Glow-Wire Capable, Black, Tape and Reel"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.57"
+			(at 16.51 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-43650-0212"
+			(at 16.51 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43650-0212?qs=zi95yC3thwGsNF9etovFgw%3D%3D"
+			(at 16.51 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 16.51 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43650-0212"
+			(at 16.51 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "43650-0212_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 15.24 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 5.08 270)
+				(length 2.54) hide
+				(name "p1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -5.08 90)
+				(length 2.54) hide
+				(name "p2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
