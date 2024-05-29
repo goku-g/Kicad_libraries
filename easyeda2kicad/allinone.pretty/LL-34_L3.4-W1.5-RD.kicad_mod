@@ -1,0 +1,140 @@
+(footprint "LL-34_L3.4-W1.5-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "8ca51d52-743e-4f62-ac43-7ecc7409d773")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LL-34_L3.4-W1.5-RD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "6b4a415b-5d73-44ab-9db1-366365104940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aa71ee0-4171-467f-8f98-f9ed8fd16f9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc3843cd-9fee-465a-b5fb-81d6d7ae58bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c24745a-4e43-4a71-87b3-f8f13bc3205b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.84 -0.83)
+		(end -0.84 0.83)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfb3909f-5f49-4204-83da-bcac7b80cefc")
+	)
+	(fp_line
+		(start -0.84 -0.83)
+		(end 0.84 -0.83)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8f6488b-3b09-4852-90ea-d7b35e8c77b0")
+	)
+	(fp_line
+		(start -0.84 0.83)
+		(end 0.84 0.83)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65bb45e3-2a73-4bf4-aa3d-6fe94cca526c")
+	)
+	(fp_circle
+		(center -1.7 0.75)
+		(end -1.67 0.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "506b2d37-008b-4c9c-8359-5c6f112ce284")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8b410ee0-0841-43d0-b739-1045060e90a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.77 0)
+		(size 1.44 1.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e8b44f35-7736-4fd6-8498-124e73cac1df")
+	)
+	(pad "2" smd rect
+		(at 1.77 0)
+		(size 1.44 1.62)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b9da2ac6-c922-4356-846d-171fa35e05c3")
+	)
+	(model "${KICAD_CUSTOM_DIR}/easyeda2kicad/allinone.3dshapes/SOD-80_BD1.5-L3.5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
