@@ -1,0 +1,249 @@
+(footprint "castellated_pad_1x8_P2.00_1x1.5mm_H0.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 9.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e9ae4ca-87a4-42fb-9ed7-48395d3adff7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "castellated_pad_1x8_P2.00_1x1.5mm_H0.6mm"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ba223c12-bf7e-4059-82ea-2406187f3185")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09e95090-372f-4c5d-8f24-21effac55c72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fbcd7f3-bd08-4ea5-8144-668dc823284d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b050f1a3-bfff-4c43-a804-3098efc26009")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.7 -8.5)
+		(end -0.7 8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "82dcb374-a1bd-4ee6-9662-68e0d3a02fc5")
+	)
+	(fp_line
+		(start -0.7 8.5)
+		(end 1.8 8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "03a1adc7-aa63-44ae-a9fa-292ee2479a3a")
+	)
+	(fp_line
+		(start 1.8 -8.5)
+		(end -0.7 -8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "910dfc76-97c8-4e78-aaa6-09ecbdd0a35f")
+	)
+	(fp_line
+		(start 1.8 8.5)
+		(end 1.8 -8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc4f53cd-ab43-4e2e-9896-d93df5963b47")
+	)
+	(fp_line
+		(start -0.7 -7.6)
+		(end -0.7 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6981d440-362d-4e42-b896-24d3b1ec5c38")
+	)
+	(fp_line
+		(start -0.7 7.6)
+		(end 1 7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "da5c74d7-5f70-4e0d-a260-3a8cd39f7f31")
+	)
+	(fp_line
+		(start 1 -7.6)
+		(end -0.7 -7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c4534420-1fa3-44f1-a1a3-409c73bf3f02")
+	)
+	(fp_line
+		(start 1 7.6)
+		(end 1 -7.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "080a600d-412c-41db-ab8f-f407462d8884")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "44e1987c-8b58-49e7-ba5f-dd399aacc3c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -0.7 -7 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3804629-d931-44e7-b19a-c08eef0b897a")
+	)
+	(pad "2" thru_hole rect
+		(at -0.7 -5 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6b41b46-d286-4822-bc70-50e098ec01c8")
+	)
+	(pad "3" thru_hole rect
+		(at -0.7 -3 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "adbf1896-0083-4435-9b19-43aba2afcc78")
+	)
+	(pad "4" thru_hole rect
+		(at -0.7 -1 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbade457-885a-4b37-9865-b63479d3a5f7")
+	)
+	(pad "5" thru_hole rect
+		(at -0.7 1 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ea96eb4-0399-4c22-bda6-aba4131f8587")
+	)
+	(pad "6" thru_hole rect
+		(at -0.7 3 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "61c1e2d0-ad06-4a47-ae72-c3d657c8c019")
+	)
+	(pad "7" thru_hole rect
+		(at -0.7 5 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc141a2c-f21c-4e2c-8861-f258bdd54dc9")
+	)
+	(pad "8" thru_hole rect
+		(at -0.7 7 90)
+		(size 1 1.5)
+		(drill 0.6
+			(offset 0 0.75)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc33ee37-f7b2-4977-be90-ec58aec77d96")
+	)
+)
