@@ -1,0 +1,240 @@
+(footprint "SL0624_L_7.1x6.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "910178ce-2461-4827-99df-1b2f679fc1b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SL0624_L_7.1x6.6mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d1b58fc-dca0-4d32-9e88-279e65ad1f83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de8cdfe8-8958-4e09-ba2d-081c8d3c58bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b289fad0-03ac-4863-bc27-fef941bf0976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "200ea49d-ec2b-49f8-a1c6-a41e832e9902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.2 -3.3)
+		(end 4.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16947941-1c55-4e0c-a246-e95fc2105c18")
+	)
+	(fp_line
+		(start -4.2 -2.5)
+		(end -4.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c06918b8-32ab-4b6e-a225-5bc39ff094d8")
+	)
+	(fp_line
+		(start -4.2 2.5)
+		(end -4.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c797920-6789-4ac0-8bf9-e26332262716")
+	)
+	(fp_line
+		(start 4.2 -2.5)
+		(end 4.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36102bf6-29af-499b-90dc-8f7430da27f3")
+	)
+	(fp_line
+		(start 4.2 2.5)
+		(end 4.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "721cc0e7-c36a-4b66-a905-eef406512683")
+	)
+	(fp_line
+		(start 4.2 3.3)
+		(end -4.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a3e6c1d6-c21c-4cc8-ba13-cb46ff6ebb4b")
+	)
+	(fp_rect
+		(start -4.5 -3.52)
+		(end 4.48 3.56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1eb44c6e-02a7-404f-8d08-de9ad9993ac0")
+	)
+	(fp_line
+		(start -4.2 -3.3)
+		(end 4.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cc1adffa-622e-4164-ab87-a06dc3b0fa2a")
+	)
+	(fp_line
+		(start -4.2 -2.5)
+		(end -4.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8414247e-387a-461b-bd0d-148ace212eb9")
+	)
+	(fp_line
+		(start -4.2 2.5)
+		(end -4.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c05ee89b-8674-46d5-a5d7-eb2b78dcab1d")
+	)
+	(fp_line
+		(start 4.2 -2.5)
+		(end 4.2 -3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "57fcbbf0-30bc-4124-8bac-f12f6a2d5c5d")
+	)
+	(fp_line
+		(start 4.2 2.5)
+		(end 4.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d4444629-5e11-4268-9b77-9aad3556dcfe")
+	)
+	(fp_line
+		(start 4.2 3.3)
+		(end -4.2 3.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0ecba700-4105-4d7f-9bd9-9ae4a81d36ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "626a85ef-f587-44cc-a5fa-6a531885738e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.21 0)
+		(size 2.5 3.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9e358ee3-e1c5-4bb6-8077-d4d837f035c6")
+	)
+	(pad "2" smd roundrect
+		(at 4.21 0)
+		(size 2.5 3.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e69d6bf9-741c-4bcc-8db0-84bdf488da41")
+	)
+	(model "${KICAD_CUSTOM_DIR}/easyeda2kicad/allinone.3dshapes/IND-SMD_L6.6-W7.1-H3.0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.25 1 0.75)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
